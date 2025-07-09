@@ -1,0 +1,78 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #b22222;
+  margin-bottom: 1rem;
+}
+
+.name {
+  color: #b22222;
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+}
+
+.bio {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #cccccc;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.btn {
+  background-color: #b22222;
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #cc3333;
+}
+
+.contact {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.vcard {
+  margin-top: 1.2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #777;
+}
