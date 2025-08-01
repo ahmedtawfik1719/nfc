@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahmedtawfik الحسابات البنكية</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png"/>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d; /* خلفية داكنة متوافقة مع الهوية */
+      color: #fff; /* نص أبيض */
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 30px;
+      color: #ffcc00; /* الأصفر الذهبي للعناوين */
+    }
+    .logo {
+      max-width: 150px;
+      margin: 0 auto 20px;
+      display: block;
+    }
+    .barcode-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .barcode-box {
+      background-color: #2b2b3c; /* خلفية الصندوق */
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+      box-sizing: border-box;
+      color: #eee;
+    }
+    img.barcode-img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      border: 2px solid #444;
+      border-radius: 8px;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .buttons a {
+      text-decoration: none;
+      background-color: #007acc; /* ازرق الهوية */
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: background-color 0.3s;
+    }
+    .buttons a:hover {
+      background-color: #005999; /* ازرق غامق عند المرور */
+    }
+    @media (min-width: 768px) {
+      .barcode-box {
+        width: calc(33.33% - 20px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="assets/logo.png" alt="الشعار" class="logo" />
+
+  <h1> الحسابات البنكية</h1>
+
+  <div class="barcode-container">
+    <div class="barcode-box">
+      <h3>الراجحي</h3>
+      <img src="alrajhi.png" alt="باركود الراجحي" class="barcode-img" />
+      <div class="buttons">
+        <a href="alrajhi.png" target="_blank">عرض</a>
+        <a href="alrajhi.png" download>تحميل</a>
+      </div>
+    </div>
+
+    <div class="barcode-box">
+      <h3>STC Pay</h3>
+      <img src="stcpay.png" alt="باركود STC Pay" class="barcode-img" />
+      <div class="buttons">
+        <a href="stcpay.png" target="_blank">عرض</a>
+        <a href="stcpay.png" download>تحميل</a>
+      </div>
+    </div>
+
+    <div class="barcode-box">
+      <h3>InstaPay</h3>
+      <img src="instapay.png" alt="باركود InstaPay" class="barcode-img" />
+      <div class="buttons">
+        <a href="instapay.png" target="_blank">عرض</a>
+        <a href="instapay.png" download>تحميل</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
